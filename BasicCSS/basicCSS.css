@@ -1,0 +1,20 @@
+h1{
+    color:rgb(195, 107, 253);
+    background-color: aqua;
+}
+
+.turnred { 
+    color: red;
+}
+#specialp{
+    background-color:bisque;
+}
+a{
+    color:blue
+}
+a:visited{
+    color: greenyellow;
+}
+a:hover{
+    color: pink;
+}
