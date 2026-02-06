@@ -1,0 +1,26 @@
+
+#black {
+    background-color: black ;
+    color: aliceblue;
+}
+h1 { 
+    color: purple;
+}
+h2 {
+    color: goldenrod;
+}
+h3 {
+    color: blue;
+}
+a{
+    color:red
+}
+a:visited{
+    color: green;
+}
+a:hover{
+    color: yellow;
+}
+.green { 
+    color: green;
+}
