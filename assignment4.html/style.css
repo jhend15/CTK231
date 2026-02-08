@@ -1,0 +1,50 @@
+
+#black {
+    background-color: black ;
+    color: aliceblue;
+}
+h1 { 
+    color: orange;
+    font-style: italic;
+    font-weight: 100;
+}
+h2 {
+    color: orange;
+    font-style: italic;
+    font-weight: 100;
+}
+h3 {
+    color: orange;
+    font-style: italic;
+    font-weight: 100;
+}
+h4 {
+    color: orange;
+    font-style: italic;
+    font-weight: 100;
+}
+a{
+    color:red
+}
+a:visited{
+    color: green;
+}
+a:hover{
+    color: yellow;
+}
+.green { 
+    color: purple;
+    text-align: center;
+    background-image: url(background.jpg);
+}
+.text {
+    font-family: Helvetica, sans-serif;
+}
+.align { 
+    text-align: justify;
+}
+img {
+    border: 10px solid black;
+    padding: 20px 20px 20px 20px ;
+    background-color: yellow;
+}
