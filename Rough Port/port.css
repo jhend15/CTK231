@@ -1,5 +1,26 @@
+.jacques-francois-shadow-regular {
+  font-family: "Jacques Francois Shadow", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.itim-regular {
+  font-family: "Itim", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.heebo-uniquifier {
+  font-family: "Heebo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+
 body {
-  background-color: #999999;
+  background-image: url("background.jpg");
 }
 
 #wrapper {
@@ -23,6 +44,7 @@ header {
 header h1 {
   margin: 10px;
   font-size: 75px;
+  font-family: "Itim", cursive;
   
 }
 
@@ -49,11 +71,12 @@ nav ul li {
 
 nav ul li a {
   display: block;
-  padding: 8px 20px; 
+  padding: 2px 20px; 
   background-color: #999999;
   color: white;
   text-decoration: none;
-  margin-top: 15px;
+  margin-top: 5px;
+  font-family: "Itim", cursive;
 }
 
 nav ul li ul {
@@ -74,12 +97,17 @@ nav ul li:hover ul {
 grid-column: span 5;
 display: flex;
 margin: 35px;
+img {
+  filter: drop-shadow(4px 4px 8px gray);
+}
 }
 main {
   grid-column: span 7;
 }
 main h1 {
   font-size: 128px;
+  margin: 0%;
+  font-family: "Jacques Francois Shadow", serif; 
 }
 
 #tabs {
@@ -101,41 +129,59 @@ main h1 {
   font-weight: bold;
   text-align: center;
   border-radius: 10px;
+  font-family: "Itim", cursive;
 }
 
 /* PROJECTS */
 .projects {
   grid-column: span 12;
   font-size: 48px;
+  font-family: "Itim", cursive;
+  margin: 5px;
 }
 
 .project1 {
   grid-column: span 4;
 }
 
+
 .project1 h3 {
   font-size: 25px;
   margin-top: 0px;
+  font-family: "Itim", cursive;
 }
 
 .project1 ul {
   font-size: 20px;
   margin: 0%;
+  font-family: "Heebo", sans-serif;
 }
 
 .project2 {
   grid-column: span 4;
+}
 
+.project2 img {
+  width: 291px;
+  height: 252px;
 }
 
 .project2 h3 {
   font-size: 25px;
-  margin-top: 0px;
+  margin: 0px;
+  font-family: "Itim", cursive;
 }
 
 .project2 ul {
   font-size: 20px;
-  margin: 0%;
+  margin: 0px;
+  font-family: "Heebo", sans-serif;
+}
+
+.project2 p {
+  font-size: 13px;
+  margin: 0px;
+  font-family: "Heebo", sans-serif;
 }
 
 .project3 {
@@ -146,8 +192,25 @@ main h1 {
 .project3 h3 {
   font-size: 25px;
   margin-top: 0px;
+  font-family: "Itim", cursive;
 }
 .project3 ul {
   font-size: 20px;
   margin: 0%;
+  font-family: "Heebo", sans-serif;
+}
+
+footer {
+  grid-column: span 12;
+  text-align: right;
+  font-size: 30px;
+  
+}
+footer a {
+  color: #999999;
+  transition: all 1s;
+}
+footer :hover {
+  color: blue;
+  font-size: 50px;
 }
