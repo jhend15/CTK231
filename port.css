@@ -1,0 +1,376 @@
+/* FONTS */
+
+.jacques-francois-shadow-regular {
+  font-family: "Jacques Francois Shadow", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.itim-regular {
+  font-family: "Itim", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.heebo-uniquifier {
+  font-family: "Heebo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+/* set up */
+
+body {
+  background-image: url("background.jpg");
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  height: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+
+/* HEADER */
+
+header {
+  grid-column: span 11;
+  border-bottom: 3px solid black
+}
+
+header h1 {
+  margin: 10px;
+  font-size: 75px;
+  font-family: "Itim", cursive;
+  color: gold;
+}
+
+/* NAV */
+
+nav {
+  position: relative;
+}
+
+.lines {
+  grid-column: span 1;
+  width: 35px;
+  cursor: pointer;
+  background-color: black;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.lines div {
+  height: 4px;
+  background-color: gold;
+  margin: 6px 0;
+}
+
+#menu {
+  display: none;
+  list-style: none;
+  padding: 10px;
+  background-color: black;
+  position: absolute;
+  top: 80px;
+  width: 150px;
+}
+
+#menu li {
+  margin: 20px ;
+}
+
+#menu li a {
+  display: block;
+  padding: 5px 20px; 
+  background-color: blue;
+  color: white;
+  text-decoration: none;
+  margin-top: 5px;
+  font-family: "Itim", cursive;
+  font-size: 25px;
+}
+
+/* MAIN */
+
+#mainimg {
+grid-column: span 5;
+display: flex;
+margin: 35px;
+img {
+  filter: drop-shadow(4px 4px 8px gray);
+}
+}
+main {
+  grid-column: span 7;
+}
+main h1 {
+  font-size: 128px;
+  margin: 0%;
+  font-family: "Jacques Francois Shadow", serif; 
+  color: blue;
+}
+
+#tabs {
+ grid-column: span 12;
+ display: flex;
+ justify-content: center;
+ gap: 250px;
+ font-size: 60px;
+ border-bottom: 3px solid black;
+}
+
+#tabs a{
+  display: block;
+  margin-bottom: 10px;
+  padding: 15px 30px; 
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 10px;
+  font-family: "Itim", cursive;
+  transition: all 1s;
+}
+
+#tabs :hover { 
+  color: gold;
+  font-size: 70px
+}
+
+/* PROJECTS */
+
+.projects {
+  grid-column: span 12;
+  font-size: 48px;
+  font-family: "Itim", cursive;
+  margin: 0px;
+  color: blue;
+}
+
+.project1 {
+  grid-column: span 4;
+}
+
+
+.project1 h3 {
+  font-size: 25px;
+  margin: 0px;
+  font-family: "Itim", cursive;
+  color: gold;
+}
+
+.project1 ul {
+  font-size: 20px;
+  margin: 0px;
+  font-family: "Heebo", sans-serif;
+}
+
+.project1 p {
+ font-size: 14px;
+  margin: 0px;
+  font-family: "Heebo", sans-serif;
+}
+.project1 video {
+  margin: 0px;
+}
+
+.project2 {
+  grid-column: span 4;
+}
+
+.project2 img {
+  width: 350px;
+  height: 252px;
+}
+
+.project2 h3 {
+  font-size: 25px;
+  margin: 0px;
+  font-family: "Itim", cursive;
+  color: gold;
+}
+
+.project2 ul {
+  font-size: 20px;
+  margin: 0px;
+  font-family: "Heebo", sans-serif;
+}
+
+.project2 p {
+  font-size: 13px;
+  margin: 0px;
+  font-family: "Heebo", sans-serif;
+}
+
+.project3 {
+  grid-column: span 4;
+
+}
+
+.project3 h3 {
+  font-size: 25px;
+  margin-top: 0px;
+  font-family: "Itim", cursive;
+  color: gold;
+}
+.project3 ul {
+  font-size: 20px;
+  margin: 0%;
+  font-family: "Heebo", sans-serif;
+}
+
+.project3 p {
+  font-size: 14px;
+  margin: 0px;
+  font-family: "Heebo", sans-serif;
+}
+
+/* FOOTER */
+
+footer {
+  grid-column: span 12;
+  text-align: right;
+  font-size: 30px;
+  
+}
+footer a {
+  color: #999999;
+  transition: all 1s;
+}
+footer :hover {
+  color: blue;
+  font-size: 50px;
+}
+
+
+/* SECOND PAGE */
+
+
+.main2 {
+  grid-column: span 12;
+  font-size: 128px;
+  margin: 0%;
+  font-family: "Jacques Francois Shadow", serif; 
+  width: 600px;
+  text-align: center;
+  margin-left: 310px;
+}
+
+.info {
+  grid-column: span 4;
+  background-color:  rgb(0, 0, 0, .3);
+  border-radius: 50px;
+}
+
+.info h3 {
+  text-align: center;
+  font-size: 45px;
+  color: blue;
+}
+
+.imgme {
+  grid-column: span 4;
+  margin-left: 25px;
+}
+
+.do {
+  grid-column: span 4;
+  background-color:  rgb(0, 0, 0, .3);
+  border-radius: 50px;
+}
+
+.do h3 {
+  text-align: center;
+  font-size: 45px;
+  color: blue;
+}
+
+.mg {
+  grid-column: span 12;
+  background-color: rgb(0, 0, 0, .3);
+  width: 385px;
+ margin-left: 408px;
+  height: 350px;
+  margin-top: 20px;
+  border-radius: 50px;
+}
+
+.mg h3 {
+  text-align: center;
+  font-size: 45px;
+  color: blue;
+}
+
+
+/* THIRD PAGE */
+
+.work1 {
+  grid-column: span 6;
+  margin: 30px;
+}
+
+.work1 img {
+  width: 368px;
+  height: 330px;
+}
+
+.work1 h3 {
+  /* text-align: center; */
+  color: blue;
+  font-size: ;
+}
+
+.work2 {
+  grid-column: span 6;
+  margin: 30px;
+}
+
+.work2 img {
+  width: 368px;
+  height: 330px;
+}
+
+.work2 h3 {
+  /* text-align: center; */
+
+}
+
+.work3 {
+  grid-column: span 6;
+  margin: 30px;
+}
+
+.work3 img {
+  width: 368px;
+  height: 330px;
+}
+
+.work3 h3 {
+  /* text-align: center; */
+}
+
+.work4 {
+  grid-column: span 6;
+  margin: 30px;
+}
+
+.work4 img {
+  width: 368px;
+  height: 330px;
+}
+
+.work4 h3 {
+  /* text-align: center; */
+}
+
+
+
