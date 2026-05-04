@@ -326,7 +326,7 @@ footer :hover {
 .work1 h3 {
   /* text-align: center; */
   color: blue;
-  font-size: ;
+  font-size: 25;
 }
 
 .work2 {
@@ -340,8 +340,8 @@ footer :hover {
 }
 
 .work2 h3 {
-  /* text-align: center; */
-
+color: blue;
+font-size: 25;
 }
 
 .work3 {
@@ -355,7 +355,8 @@ footer :hover {
 }
 
 .work3 h3 {
-  /* text-align: center; */
+ color: blue;
+font-size: 25;
 }
 
 .work4 {
@@ -369,7 +370,8 @@ footer :hover {
 }
 
 .work4 h3 {
-  /* text-align: center; */
+ color: blue;
+font-size: 25;
 }
 
 
